@@ -15,7 +15,7 @@ function getUserInput(): Promise<string> {
         input: process.stdin,
         output: process.stdout
     });
-
+// re-add sample code for PR
     return new Promise((resolve) => {
         rl.question('Enter your name: ', (answer) => {
             rl.close();
